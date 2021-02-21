@@ -8,6 +8,7 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200618170529885.png)
 2.邮件SMTP配置，本文以配置163邮箱为例。点击开启按钮，开启smtp。然后点击新增授权码，按步骤最后会得到一串字符（授权码），将字符串复制，并把它放到第三步里面的MAIL_PASSWORD变量
 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200618182701545.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BvbGljZV8x,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200618182802385.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BvbGljZV8x,size_16,color_FFFFFF,t_70)
  3.配置你的账号和密码。在工程的secrets里面放置你的账号和密码。同样的，如果你不需要发送邮件通知可以不添加邮件配置。（SCUT_PASSWORD和SCUT_USER两个变量名需要跟signinaction.yml代码里面的一致）
